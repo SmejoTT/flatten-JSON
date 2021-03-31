@@ -1,0 +1,1 @@
+type test\data\test1.json | py flattenJSON.py > actual_output.json
