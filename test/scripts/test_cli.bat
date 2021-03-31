@@ -1,1 +1,1 @@
-type test\data\test1.json | py flattenJSON.py > actual_output.json
+type %~dp0\..\data\test1.json | py %~dp0\..\..\flattenJSON.py > %~dp0\actual_output.json
