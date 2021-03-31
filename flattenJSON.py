@@ -9,7 +9,7 @@ class JSONhandler():
         try:
             json_object = json.loads(json_string)
         except json.JSONDecodeError:
-            raise ValueError("Provided file is not valid JSON file.")
+            raise ValueError("Provided file is not a valid JSON file.")
              
         self.__flatten_recursive(json_object)
         flattened_json_string = json.dumps(self.flattened_json, indent=4)
