@@ -58,6 +58,7 @@ You can find test data and scripts in ```test``` directory. Test script runs fla
 py testFlattenJSON.py
 ```
 **Linux:**
+
 You need to at first set executable permission of bash script in ```test/scripts```.
 ```
 chmod +x test/scripts/test_cli.sh
