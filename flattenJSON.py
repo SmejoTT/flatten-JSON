@@ -24,9 +24,9 @@ class JSONhandler():
 
         for key, value in json_dict.items():
             if len(key_path)>0:
-                new_key_path = key_path + delimeter + str(key)
+                new_key_path = key_path + delimeter + key
             else:
-                new_key_path = key_path + str(key)    
+                new_key_path = key_path + key    
             self.__flatten_recursive(value,new_key_path)
 
 if __name__ == "__main__":
